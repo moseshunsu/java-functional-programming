@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8090c574-03b8-4cea-ac77-7b3ced3e5adc" name="Changes" comment="" />
+    <list default="true" id="8090c574-03b8-4cea-ac77-7b3ced3e5adc" name="Changes" comment="added Binary, Unary &amp; Supplier lambda-type examples">
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/lambdaReferences/ConstructorReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/lambdaReferences/ConvertToMethodReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/lambdaReferences/InstructorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/lambdaReferences/MethodReferenceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/referenceClass/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/Instructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/referenceClass/Instructors.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -42,13 +53,13 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.ConsumerExample" />
+  <component name="RunManager" selected="Application.BiPredicateExample">
+    <configuration name="BiPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.predicate.BiPredicateExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.*" />
+          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.ConsumerExample2" />
+    <configuration name="BinaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.otherLambdaTypes.BinaryOperatorExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.*" />
+          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.Main" />
+    <configuration name="ConstructorReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.lambdaReferences.ConstructorReferenceExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.*" />
+          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.lambdaIntro.RunnableExample" />
+    <configuration name="ConvertToMethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.lambdaReferences.ConvertToMethodReferenceExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.lambdaIntro.*" />
+          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfNumbersUsingCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.lambdaIntro.SumOfNumbersUsingCallable" />
+    <configuration name="SupplierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.otherLambdaTypes.SupplierExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.lambdaIntro.*" />
+          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ConsumerExample2" />
-        <item itemvalue="Application.ConsumerExample" />
-        <item itemvalue="Application.SumOfNumbersUsingCallable" />
-        <item itemvalue="Application.RunnableExample" />
+        <item itemvalue="Application.BiPredicateExample" />
+        <item itemvalue="Application.ConstructorReferenceExample" />
+        <item itemvalue="Application.ConvertToMethodReferenceExample" />
+        <item itemvalue="Application.SupplierExample" />
+        <item itemvalue="Application.BinaryOperatorExample" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +138,42 @@
       <option name="presentableId" value="Default" />
       <updated>1684150673550</updated>
     </task>
+    <task id="LOCAL-00001" summary="added Consumer lambda-type examples">
+      <created>1684251836386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684251836387</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added Predicate lambda-type examples">
+      <created>1684251896361</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684251896361</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added Functional Interface lambda-type examples">
+      <created>1684251954142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684251954142</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added Binary, Unary &amp; Supplier lambda-type examples">
+      <created>1684252030653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684252030653</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added Consumer lambda-type examples" />
+    <MESSAGE value="added Predicate lambda-type examples" />
+    <MESSAGE value="added Functional Interface lambda-type examples" />
+    <MESSAGE value="added Binary, Unary &amp; Supplier lambda-type examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Binary, Unary &amp; Supplier lambda-type examples" />
   </component>
 </project>
