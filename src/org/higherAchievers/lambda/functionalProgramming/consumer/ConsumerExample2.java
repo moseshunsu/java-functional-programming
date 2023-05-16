@@ -1,4 +1,7 @@
-package org.higherAchievers.lambda.functionalProgramming;
+package org.higherAchievers.lambda.functionalProgramming.consumer;
+
+import org.higherAchievers.lambda.functionalProgramming.referenceClass.Instructor;
+import org.higherAchievers.lambda.functionalProgramming.referenceClass.Instructors;
 
 import java.util.List;
 import java.util.function.Consumer;

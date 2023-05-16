@@ -1,4 +1,4 @@
-package org.higherAchievers.lambda.functionalProgramming;
+package org.higherAchievers.lambda.functionalProgramming.consumer;
 
 import java.util.function.Consumer;
 
