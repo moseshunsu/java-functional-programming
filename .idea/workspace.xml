@@ -4,10 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8090c574-03b8-4cea-ac77-7b3ced3e5adc" name="Changes" comment="added Variable scope illustration">
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/realWorldBankTransferExample/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/realWorldBankTransferExample/BankTransfer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8090c574-03b8-4cea-ac77-7b3ced3e5adc" name="Changes" comment="completed the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt.">
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/FilterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/FlatMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/IntStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/StreamComparatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/StreamFactoryMethodExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/StreamFindAnyAndFirstExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/StreamLimitAndSkipExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/StreamMapFilterReduceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/StreamMaxExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/StreamMinExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/StreamReduceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/StreamReduceExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/StreamVsCollectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/StreamsOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +69,13 @@
       <recent name="org.higherAchievers.lambda.realWorldBankTransferExample" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BankTransfer">
-    <configuration name="BankTransfer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.realWorldBankTransferExample.BankTransfer" />
+  <component name="RunManager" selected="Application.IntStreamExample">
+    <configuration name="IntStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.streams.IntStreamExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.realWorldBankTransferExample.*" />
+          <option name="PATTERN" value="org.higherAchievers.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BiFunctionExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalInterface.BiFunctionExample2" />
+    <configuration name="StreamFactoryMethodExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.streams.StreamFactoryMethodExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.functionalInterface.*" />
+          <option name="PATTERN" value="org.higherAchievers.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.lambdaExpressions.VariableScope" />
+    <configuration name="StreamFindAnyAndFirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.streams.StreamFindAnyAndFirstExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.lambdaExpressions.*" />
+          <option name="PATTERN" value="org.higherAchievers.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.higherAchievers.lambda.VariableScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.VariableScope" />
+    <configuration name="StreamLimitAndSkipExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.streams.StreamLimitAndSkipExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.*" />
+          <option name="PATTERN" value="org.higherAchievers.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.higherAchievers.lambda.lambdaExpressions.predicate.BiPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.lambdaExpressions.predicate.BiPredicateExample" />
+    <configuration name="SupplierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.lambdaIllustrations.otherLambdaTypes.SupplierExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.lambdaExpressions.predicate.*" />
+          <option name="PATTERN" value="org.higherAchievers.lambda.lambdaIllustrations.otherLambdaTypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BankTransfer" />
-        <item itemvalue="Application.BiFunctionExample2" />
-        <item itemvalue="Application.org.higherAchievers.lambda.VariableScope" />
-        <item itemvalue="Application.VariableScope" />
-        <item itemvalue="Application.org.higherAchievers.lambda.lambdaExpressions.predicate.BiPredicateExample" />
+        <item itemvalue="Application.IntStreamExample" />
+        <item itemvalue="Application.StreamFactoryMethodExample" />
+        <item itemvalue="Application.SupplierExample" />
+        <item itemvalue="Application.StreamFindAnyAndFirstExample" />
+        <item itemvalue="Application.StreamLimitAndSkipExample" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684302171542</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commpleted the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt.">
+      <created>1684317412119</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684317412119</updated>
+    </task>
+    <task id="LOCAL-00007" summary="completed the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt.">
+      <created>1684338738291</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684338738291</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,6 +212,8 @@
     <MESSAGE value="added Functional Interface lambda-type examples" />
     <MESSAGE value="added Binary, Unary &amp; Supplier lambda-type examples" />
     <MESSAGE value="added Variable scope illustration" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Variable scope illustration" />
+    <MESSAGE value="commpleted the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt." />
+    <MESSAGE value="completed the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt." />
+    <option name="LAST_COMMIT_MESSAGE" value="completed the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt." />
   </component>
 </project>
