@@ -4,10 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8090c574-03b8-4cea-ac77-7b3ced3e5adc" name="Changes" comment="added Binary, Unary &amp; Supplier lambda-type examples">
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/VariableScope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8090c574-03b8-4cea-ac77-7b3ced3e5adc" name="Changes" comment="added Variable scope illustration">
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/VariableScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/VariableScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/consumer/BiConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/consumer/BiConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/consumer/BiConsumerExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/consumer/BiConsumerExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/consumer/ConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/consumer/ConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/consumer/ConsumerExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/consumer/ConsumerExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/consumer/ConsumerExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/consumer/ConsumerExample3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/functionalInterface/BiFunctionExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/functionalInterface/BiFunctionExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/functionalInterface/FunctionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/functionalInterface/FunctionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/functionalInterface/FunctionExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/functionalInterface/FunctionExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaIntro/ConcatenateInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaIntro/ConcatenateInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaIntro/ConcatenateLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaIntro/ConcatenateLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaIntro/ConcatenateTraditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaIntro/ConcatenateTraditional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaIntro/HelloWorldInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaIntro/HelloWorldInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaIntro/HelloWorldLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaIntro/HelloWorldLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaIntro/HelloWorldTraditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaIntro/HelloWorldTraditional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaIntro/IncrementByFiveInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaIntro/IncrementByFiveInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaIntro/IncrementByFiveLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaIntro/IncrementByFiveLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaIntro/IncrementByFiveTraditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaIntro/IncrementByFiveTraditional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaIntro/RunnableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaIntro/RunnableExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaIntro/SumOfNumbersUsingCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaIntro/SumOfNumbersUsingCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaReferences/ConstructorReferenceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaReferences/ConstructorReferenceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaReferences/ConvertToMethodReferenceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaReferences/ConvertToMethodReferenceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaReferences/InstructorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaReferences/InstructorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/lambdaReferences/MethodReferenceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/lambdaReferences/MethodReferenceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/otherLambdaTypes/BinaryOperatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/otherLambdaTypes/BinaryOperatorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/otherLambdaTypes/SupplierExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/otherLambdaTypes/SupplierExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/otherLambdaTypes/UnaryOperatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/otherLambdaTypes/UnaryOperatorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/predicate/BiPredicateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/predicate/BiPredicateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/predicate/PredicateAndBiConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/predicate/PredicateAndBiConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/predicate/PredicateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/predicate/PredicateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/predicate/PredicateExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/predicate/PredicateExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/predicate/PredicateExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/predicate/PredicateExample3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/referenceClass/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/referenceClass/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/referenceClass/Instructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambdaExpressions/referenceClass/Instructors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +81,7 @@
     "settings.editor.selected.configurable": "MTHome"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.VariableScope">
+  <component name="RunManager" selected="Application.BiFunctionExample2">
     <configuration name="BiConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.lambdaExpressions.consumer.BiConsumerExample" />
       <module name="java-functional-programming" />
@@ -64,25 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BiPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.predicate.BiPredicateExample" />
+    <configuration name="BiFunctionExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalInterface.BiFunctionExample2" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.predicate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConstructorReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.lambdaReferences.ConstructorReferenceExample" />
-      <module name="java-functional-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.consumer.*" />
+          <option name="PATTERN" value="org.higherAchievers.lambda.functionalInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,6 +114,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.higherAchievers.lambda.lambdaExpressions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.higherAchievers.lambda.VariableScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.VariableScope" />
+      <module name="java-functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.higherAchievers.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BiFunctionExample2" />
+        <item itemvalue="Application.org.higherAchievers.lambda.VariableScope" />
         <item itemvalue="Application.VariableScope" />
         <item itemvalue="Application.org.higherAchievers.lambda.lambdaExpressions.predicate.BiPredicateExample" />
         <item itemvalue="Application.BiConsumerExample" />
-        <item itemvalue="Application.BiPredicateExample" />
-        <item itemvalue="Application.ConstructorReferenceExample" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684252030653</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added Variable scope illustration">
+      <created>1684302171542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684302171542</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -171,6 +209,7 @@
     <MESSAGE value="added Predicate lambda-type examples" />
     <MESSAGE value="added Functional Interface lambda-type examples" />
     <MESSAGE value="added Binary, Unary &amp; Supplier lambda-type examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Binary, Unary &amp; Supplier lambda-type examples" />
+    <MESSAGE value="added Variable scope illustration" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Variable scope illustration" />
   </component>
 </project>
