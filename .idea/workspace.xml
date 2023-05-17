@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8090c574-03b8-4cea-ac77-7b3ced3e5adc" name="Changes" comment="added Binary, Unary &amp; Supplier lambda-type examples">
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/lambdaReferences/ConstructorReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/lambdaReferences/ConvertToMethodReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/lambdaReferences/InstructorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/lambdaReferences/MethodReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/lambdaExpressions/VariableScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/referenceClass/Instructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/Instructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/functionalProgramming/referenceClass/Instructors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,25 +37,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "MTHome"
   }
-}</component>
-  <component name="RunManager" selected="Application.BiPredicateExample">
-    <configuration name="BiPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.predicate.BiPredicateExample" />
+}]]></component>
+  <component name="RunManager" selected="Application.VariableScope">
+    <configuration name="BiConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.lambdaExpressions.consumer.BiConsumerExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.predicate.*" />
+          <option name="PATTERN" value="org.higherAchievers.lambda.lambdaExpressions.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.otherLambdaTypes.BinaryOperatorExample" />
+    <configuration name="BiPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.predicate.BiPredicateExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.consumer.*" />
+          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertToMethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.lambdaReferences.ConvertToMethodReferenceExample" />
+    <configuration name="VariableScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.lambdaExpressions.VariableScope" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.consumer.*" />
+          <option name="PATTERN" value="org.higherAchievers.lambda.lambdaExpressions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalProgramming.otherLambdaTypes.SupplierExample" />
+    <configuration name="org.higherAchievers.lambda.lambdaExpressions.predicate.BiPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.lambdaExpressions.predicate.BiPredicateExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.functionalProgramming.consumer.*" />
+          <option name="PATTERN" value="org.higherAchievers.lambda.lambdaExpressions.predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VariableScope" />
+        <item itemvalue="Application.org.higherAchievers.lambda.lambdaExpressions.predicate.BiPredicateExample" />
+        <item itemvalue="Application.BiConsumerExample" />
         <item itemvalue="Application.BiPredicateExample" />
         <item itemvalue="Application.ConstructorReferenceExample" />
-        <item itemvalue="Application.ConvertToMethodReferenceExample" />
-        <item itemvalue="Application.SupplierExample" />
-        <item itemvalue="Application.BinaryOperatorExample" />
       </list>
     </recent_temporary>
   </component>
