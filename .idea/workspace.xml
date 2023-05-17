@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8090c574-03b8-4cea-ac77-7b3ced3e5adc" name="Changes" comment="added Variable scope illustration">
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/realWorldBankTransferExample/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/lambda/realWorldBankTransferExample/BankTransfer.java" afterDir="false" />
+    <list default="true" id="8090c574-03b8-4cea-ac77-7b3ced3e5adc" name="Changes" comment="completed the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt.">
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/BoxingUnboxingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/DoubleStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/LongStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/MapToObjLongDoubleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/streams/NumericStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -38,31 +41,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MTHome&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "MTHome"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.higherAchievers.lambda.realWorldBankTransferExample" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BankTransfer">
-    <configuration name="BankTransfer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.realWorldBankTransferExample.BankTransfer" />
+  <component name="RunManager" selected="Application.MapToObjLongDoubleExample">
+    <configuration name="BoxingUnboxingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.streams.BoxingUnboxingExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.realWorldBankTransferExample.*" />
+          <option name="PATTERN" value="org.higherAchievers.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BiFunctionExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.functionalInterface.BiFunctionExample2" />
+    <configuration name="DoubleStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.streams.DoubleStreamExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.functionalInterface.*" />
+          <option name="PATTERN" value="org.higherAchievers.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.lambdaExpressions.VariableScope" />
+    <configuration name="IntStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.streams.IntStreamExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.lambdaExpressions.*" />
+          <option name="PATTERN" value="org.higherAchievers.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.higherAchievers.lambda.VariableScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.VariableScope" />
+    <configuration name="MapToObjLongDoubleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.streams.MapToObjLongDoubleExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.*" />
+          <option name="PATTERN" value="org.higherAchievers.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.higherAchievers.lambda.lambdaExpressions.predicate.BiPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.lambda.lambdaExpressions.predicate.BiPredicateExample" />
+    <configuration name="NumericStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.streams.NumericStream" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.lambda.lambdaExpressions.predicate.*" />
+          <option name="PATTERN" value="org.higherAchievers.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BankTransfer" />
-        <item itemvalue="Application.BiFunctionExample2" />
-        <item itemvalue="Application.org.higherAchievers.lambda.VariableScope" />
-        <item itemvalue="Application.VariableScope" />
-        <item itemvalue="Application.org.higherAchievers.lambda.lambdaExpressions.predicate.BiPredicateExample" />
+        <item itemvalue="Application.MapToObjLongDoubleExample" />
+        <item itemvalue="Application.BoxingUnboxingExample" />
+        <item itemvalue="Application.NumericStream" />
+        <item itemvalue="Application.DoubleStreamExample" />
+        <item itemvalue="Application.IntStreamExample" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684302171542</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commpleted the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt.">
+      <created>1684317412119</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684317412119</updated>
+    </task>
+    <task id="LOCAL-00007" summary="completed the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt.">
+      <created>1684338738291</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684338738291</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,6 +203,8 @@
     <MESSAGE value="added Functional Interface lambda-type examples" />
     <MESSAGE value="added Binary, Unary &amp; Supplier lambda-type examples" />
     <MESSAGE value="added Variable scope illustration" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Variable scope illustration" />
+    <MESSAGE value="commpleted the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt." />
+    <MESSAGE value="completed the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt." />
+    <option name="LAST_COMMIT_MESSAGE" value="completed the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt." />
   </component>
 </project>
