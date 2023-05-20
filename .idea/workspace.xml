@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8090c574-03b8-4cea-ac77-7b3ced3e5adc" name="Changes" comment="completed the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt.">
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/optional/OptionalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/optional/OptionalIfIsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/optional/OptionalOfEmptyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/optional/OptionalOrElseThrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/dateTime/ConvertToLocalDateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/dateTime/ConvertToZoneDateTimeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/dateTime/DateTImeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/dateTime/DurationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/dateTime/InstantExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/dateTime/LocalDateModifyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/dateTime/LocalDateTimeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/dateTime/LocalDateTimeToDateAndTimeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/dateTime/LocalTimeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/dateTime/LocalTimeModifyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/dateTime/ZoneExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/dateTime/localDateExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -59,13 +67,13 @@
       <recent name="org.higherAchievers.lambda.realWorldBankTransferExample" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OptionalIfIsExample">
-    <configuration name="MapToObjLongDoubleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.streams.MapToObjLongDoubleExample" />
+  <component name="RunManager" selected="Application.ConvertToLocalDateTime">
+    <configuration name="ConvertToLocalDateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.dateTime.ConvertToLocalDateTime" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.streams.*" />
+          <option name="PATTERN" value="org.higherAchievers.dateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.optional.OptionalExample" />
+    <configuration name="ConvertToZoneDateTimeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.dateTime.ConvertToZoneDateTimeExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.optional.*" />
+          <option name="PATTERN" value="org.higherAchievers.dateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalIfIsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.optional.OptionalIfIsExample" />
+    <configuration name="DurationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.dateTime.DurationExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.optional.*" />
+          <option name="PATTERN" value="org.higherAchievers.dateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalOfEmptyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.optional.OptionalOfEmptyExample" />
+    <configuration name="InstantExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.dateTime.InstantExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.optional.*" />
+          <option name="PATTERN" value="org.higherAchievers.dateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalOrElseThrow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.optional.OptionalOrElseThrow" />
+    <configuration name="ZoneExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.higherAchievers.dateTime.ZoneExample" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.higherAchievers.optional.*" />
+          <option name="PATTERN" value="org.higherAchievers.dateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OptionalIfIsExample" />
-        <item itemvalue="Application.OptionalOrElseThrow" />
-        <item itemvalue="Application.OptionalOfEmptyExample" />
-        <item itemvalue="Application.OptionalExample" />
-        <item itemvalue="Application.MapToObjLongDoubleExample" />
+        <item itemvalue="Application.ConvertToLocalDateTime" />
+        <item itemvalue="Application.ConvertToZoneDateTimeExample" />
+        <item itemvalue="Application.ZoneExample" />
+        <item itemvalue="Application.InstantExample" />
+        <item itemvalue="Application.DurationExample" />
       </list>
     </recent_temporary>
   </component>
