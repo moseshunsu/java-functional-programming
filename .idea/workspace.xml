@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8090c574-03b8-4cea-ac77-7b3ced3e5adc" name="Changes" comment="completed the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt.">
-      <change afterPath="$PROJECT_DIR$/src/org/higherAchievers/personalPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8090c574-03b8-4cea-ac77-7b3ced3e5adc" name="Changes" comment="completed the implementation of modelling a real world project,bank transfer, using lambda expressions to solidify the basic lambda concepts learnt." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
